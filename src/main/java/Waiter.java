@@ -13,6 +13,10 @@ public class Waiter {
         this.pizzaBuilder = pizzaBuilder;
     }
 
+    public PizzaBuilder getPizzaBuilder() {
+        return pizzaBuilder;
+    }
+
     public Pizza getPizza() {
         return pizzaBuilder.getPizza();
     }
